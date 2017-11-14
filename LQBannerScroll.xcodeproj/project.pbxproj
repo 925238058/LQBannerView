@@ -1,0 +1,589 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A42EBFF21FB0579C00B254BF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A42EBFF11FB0579C00B254BF /* AppDelegate.m */; };
+		A42EBFF51FB0579C00B254BF /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A42EBFF41FB0579C00B254BF /* ViewController.m */; };
+		A42EBFF81FB0579C00B254BF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A42EBFF61FB0579C00B254BF /* Main.storyboard */; };
+		A42EBFFA1FB0579D00B254BF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A42EBFF91FB0579D00B254BF /* Assets.xcassets */; };
+		A42EBFFD1FB0579D00B254BF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A42EBFFB1FB0579D00B254BF /* LaunchScreen.storyboard */; };
+		A42EC0001FB0579E00B254BF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A42EBFFF1FB0579E00B254BF /* main.m */; };
+		A42EC00A1FB057A000B254BF /* LQBannerScrollTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A42EC0091FB057A000B254BF /* LQBannerScrollTests.m */; };
+		A42EC0151FB057A100B254BF /* LQBannerScrollUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = A42EC0141FB057A100B254BF /* LQBannerScrollUITests.m */; };
+		A42EC0241FB05FD200B254BF /* LQBannerScroll.m in Sources */ = {isa = PBXBuildFile; fileRef = A42EC0231FB05FD200B254BF /* LQBannerScroll.m */; };
+		A42EC0271FB0630E00B254BF /* LQBannerCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A42EC0261FB0630E00B254BF /* LQBannerCell.m */; };
+		A42EC02D1FB064F200B254BF /* 2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A42EC0281FB064F200B254BF /* 2.jpg */; };
+		A42EC02E1FB064F200B254BF /* 4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A42EC0291FB064F200B254BF /* 4.jpg */; };
+		A42EC02F1FB064F200B254BF /* 3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A42EC02A1FB064F200B254BF /* 3.jpg */; };
+		A42EC0301FB064F200B254BF /* 1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A42EC02B1FB064F200B254BF /* 1.jpg */; };
+		A42EC0311FB064F200B254BF /* 0.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A42EC02C1FB064F200B254BF /* 0.jpg */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A42EC0061FB057A000B254BF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A42EBFE51FB0579A00B254BF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A42EBFEC1FB0579B00B254BF;
+			remoteInfo = LQBannerScroll;
+		};
+		A42EC0111FB057A100B254BF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A42EBFE51FB0579A00B254BF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A42EBFEC1FB0579B00B254BF;
+			remoteInfo = LQBannerScroll;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A42EBFED1FB0579B00B254BF /* LQBannerScroll.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LQBannerScroll.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A42EBFF01FB0579C00B254BF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A42EBFF11FB0579C00B254BF /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A42EBFF31FB0579C00B254BF /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		A42EBFF41FB0579C00B254BF /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		A42EBFF71FB0579C00B254BF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A42EBFF91FB0579D00B254BF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A42EBFFC1FB0579D00B254BF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A42EBFFE1FB0579E00B254BF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A42EBFFF1FB0579E00B254BF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A42EC0051FB057A000B254BF /* LQBannerScrollTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LQBannerScrollTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A42EC0091FB057A000B254BF /* LQBannerScrollTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LQBannerScrollTests.m; sourceTree = "<group>"; };
+		A42EC00B1FB057A100B254BF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A42EC0101FB057A100B254BF /* LQBannerScrollUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LQBannerScrollUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A42EC0141FB057A100B254BF /* LQBannerScrollUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LQBannerScrollUITests.m; sourceTree = "<group>"; };
+		A42EC0161FB057A200B254BF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A42EC0221FB05FD200B254BF /* LQBannerScroll.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LQBannerScroll.h; sourceTree = "<group>"; };
+		A42EC0231FB05FD200B254BF /* LQBannerScroll.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LQBannerScroll.m; sourceTree = "<group>"; };
+		A42EC0251FB0630E00B254BF /* LQBannerCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LQBannerCell.h; sourceTree = "<group>"; };
+		A42EC0261FB0630E00B254BF /* LQBannerCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LQBannerCell.m; sourceTree = "<group>"; };
+		A42EC0281FB064F200B254BF /* 2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 2.jpg; sourceTree = "<group>"; };
+		A42EC0291FB064F200B254BF /* 4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 4.jpg; sourceTree = "<group>"; };
+		A42EC02A1FB064F200B254BF /* 3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 3.jpg; sourceTree = "<group>"; };
+		A42EC02B1FB064F200B254BF /* 1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 1.jpg; sourceTree = "<group>"; };
+		A42EC02C1FB064F200B254BF /* 0.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 0.jpg; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A42EBFEA1FB0579B00B254BF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A42EC0021FB057A000B254BF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A42EC00D1FB057A100B254BF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A42EBFE41FB0579A00B254BF = {
+			isa = PBXGroup;
+			children = (
+				A42EBFEF1FB0579B00B254BF /* LQBannerScroll */,
+				A42EC0081FB057A000B254BF /* LQBannerScrollTests */,
+				A42EC0131FB057A100B254BF /* LQBannerScrollUITests */,
+				A42EBFEE1FB0579B00B254BF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A42EBFEE1FB0579B00B254BF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A42EBFED1FB0579B00B254BF /* LQBannerScroll.app */,
+				A42EC0051FB057A000B254BF /* LQBannerScrollTests.xctest */,
+				A42EC0101FB057A100B254BF /* LQBannerScrollUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A42EBFEF1FB0579B00B254BF /* LQBannerScroll */ = {
+			isa = PBXGroup;
+			children = (
+				A42EC02C1FB064F200B254BF /* 0.jpg */,
+				A42EC02B1FB064F200B254BF /* 1.jpg */,
+				A42EC0281FB064F200B254BF /* 2.jpg */,
+				A42EC02A1FB064F200B254BF /* 3.jpg */,
+				A42EC0291FB064F200B254BF /* 4.jpg */,
+				A42EBFF01FB0579C00B254BF /* AppDelegate.h */,
+				A42EBFF11FB0579C00B254BF /* AppDelegate.m */,
+				A42EBFF31FB0579C00B254BF /* ViewController.h */,
+				A42EBFF41FB0579C00B254BF /* ViewController.m */,
+				A42EC0221FB05FD200B254BF /* LQBannerScroll.h */,
+				A42EC0231FB05FD200B254BF /* LQBannerScroll.m */,
+				A42EC0251FB0630E00B254BF /* LQBannerCell.h */,
+				A42EC0261FB0630E00B254BF /* LQBannerCell.m */,
+				A42EBFF61FB0579C00B254BF /* Main.storyboard */,
+				A42EBFF91FB0579D00B254BF /* Assets.xcassets */,
+				A42EBFFB1FB0579D00B254BF /* LaunchScreen.storyboard */,
+				A42EBFFE1FB0579E00B254BF /* Info.plist */,
+				A42EBFFF1FB0579E00B254BF /* main.m */,
+			);
+			path = LQBannerScroll;
+			sourceTree = "<group>";
+		};
+		A42EC0081FB057A000B254BF /* LQBannerScrollTests */ = {
+			isa = PBXGroup;
+			children = (
+				A42EC0091FB057A000B254BF /* LQBannerScrollTests.m */,
+				A42EC00B1FB057A100B254BF /* Info.plist */,
+			);
+			path = LQBannerScrollTests;
+			sourceTree = "<group>";
+		};
+		A42EC0131FB057A100B254BF /* LQBannerScrollUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A42EC0141FB057A100B254BF /* LQBannerScrollUITests.m */,
+				A42EC0161FB057A200B254BF /* Info.plist */,
+			);
+			path = LQBannerScrollUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A42EBFEC1FB0579B00B254BF /* LQBannerScroll */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A42EC0191FB057A200B254BF /* Build configuration list for PBXNativeTarget "LQBannerScroll" */;
+			buildPhases = (
+				A42EBFE91FB0579B00B254BF /* Sources */,
+				A42EBFEA1FB0579B00B254BF /* Frameworks */,
+				A42EBFEB1FB0579B00B254BF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LQBannerScroll;
+			productName = LQBannerScroll;
+			productReference = A42EBFED1FB0579B00B254BF /* LQBannerScroll.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A42EC0041FB057A000B254BF /* LQBannerScrollTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A42EC01C1FB057A200B254BF /* Build configuration list for PBXNativeTarget "LQBannerScrollTests" */;
+			buildPhases = (
+				A42EC0011FB057A000B254BF /* Sources */,
+				A42EC0021FB057A000B254BF /* Frameworks */,
+				A42EC0031FB057A000B254BF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A42EC0071FB057A000B254BF /* PBXTargetDependency */,
+			);
+			name = LQBannerScrollTests;
+			productName = LQBannerScrollTests;
+			productReference = A42EC0051FB057A000B254BF /* LQBannerScrollTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A42EC00F1FB057A100B254BF /* LQBannerScrollUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A42EC01F1FB057A200B254BF /* Build configuration list for PBXNativeTarget "LQBannerScrollUITests" */;
+			buildPhases = (
+				A42EC00C1FB057A100B254BF /* Sources */,
+				A42EC00D1FB057A100B254BF /* Frameworks */,
+				A42EC00E1FB057A100B254BF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A42EC0121FB057A100B254BF /* PBXTargetDependency */,
+			);
+			name = LQBannerScrollUITests;
+			productName = LQBannerScrollUITests;
+			productReference = A42EC0101FB057A100B254BF /* LQBannerScrollUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A42EBFE51FB0579A00B254BF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0910;
+				ORGANIZATIONNAME = zhengliqiang;
+				TargetAttributes = {
+					A42EBFEC1FB0579B00B254BF = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+					};
+					A42EC0041FB057A000B254BF = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = A42EBFEC1FB0579B00B254BF;
+					};
+					A42EC00F1FB057A100B254BF = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = A42EBFEC1FB0579B00B254BF;
+					};
+				};
+			};
+			buildConfigurationList = A42EBFE81FB0579B00B254BF /* Build configuration list for PBXProject "LQBannerScroll" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A42EBFE41FB0579A00B254BF;
+			productRefGroup = A42EBFEE1FB0579B00B254BF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A42EBFEC1FB0579B00B254BF /* LQBannerScroll */,
+				A42EC0041FB057A000B254BF /* LQBannerScrollTests */,
+				A42EC00F1FB057A100B254BF /* LQBannerScrollUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A42EBFEB1FB0579B00B254BF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A42EC02E1FB064F200B254BF /* 4.jpg in Resources */,
+				A42EC02F1FB064F200B254BF /* 3.jpg in Resources */,
+				A42EBFFD1FB0579D00B254BF /* LaunchScreen.storyboard in Resources */,
+				A42EC0301FB064F200B254BF /* 1.jpg in Resources */,
+				A42EC02D1FB064F200B254BF /* 2.jpg in Resources */,
+				A42EBFFA1FB0579D00B254BF /* Assets.xcassets in Resources */,
+				A42EC0311FB064F200B254BF /* 0.jpg in Resources */,
+				A42EBFF81FB0579C00B254BF /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A42EC0031FB057A000B254BF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A42EC00E1FB057A100B254BF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A42EBFE91FB0579B00B254BF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A42EBFF51FB0579C00B254BF /* ViewController.m in Sources */,
+				A42EC0271FB0630E00B254BF /* LQBannerCell.m in Sources */,
+				A42EC0241FB05FD200B254BF /* LQBannerScroll.m in Sources */,
+				A42EC0001FB0579E00B254BF /* main.m in Sources */,
+				A42EBFF21FB0579C00B254BF /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A42EC0011FB057A000B254BF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A42EC00A1FB057A000B254BF /* LQBannerScrollTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A42EC00C1FB057A100B254BF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A42EC0151FB057A100B254BF /* LQBannerScrollUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A42EC0071FB057A000B254BF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A42EBFEC1FB0579B00B254BF /* LQBannerScroll */;
+			targetProxy = A42EC0061FB057A000B254BF /* PBXContainerItemProxy */;
+		};
+		A42EC0121FB057A100B254BF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A42EBFEC1FB0579B00B254BF /* LQBannerScroll */;
+			targetProxy = A42EC0111FB057A100B254BF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A42EBFF61FB0579C00B254BF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A42EBFF71FB0579C00B254BF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A42EBFFB1FB0579D00B254BF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A42EBFFC1FB0579D00B254BF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A42EC0171FB057A200B254BF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		A42EC0181FB057A200B254BF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A42EC01A1FB057A200B254BF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = M953P4C32U;
+				INFOPLIST_FILE = LQBannerScroll/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "-.LQBannerScroll";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A42EC01B1FB057A200B254BF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = M953P4C32U;
+				INFOPLIST_FILE = LQBannerScroll/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "-.LQBannerScroll";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		A42EC01D1FB057A200B254BF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = M953P4C32U;
+				INFOPLIST_FILE = LQBannerScrollTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "-.LQBannerScrollTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LQBannerScroll.app/LQBannerScroll";
+			};
+			name = Debug;
+		};
+		A42EC01E1FB057A200B254BF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = M953P4C32U;
+				INFOPLIST_FILE = LQBannerScrollTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "-.LQBannerScrollTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LQBannerScroll.app/LQBannerScroll";
+			};
+			name = Release;
+		};
+		A42EC0201FB057A200B254BF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = M953P4C32U;
+				INFOPLIST_FILE = LQBannerScrollUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "-.LQBannerScrollUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = LQBannerScroll;
+			};
+			name = Debug;
+		};
+		A42EC0211FB057A200B254BF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = M953P4C32U;
+				INFOPLIST_FILE = LQBannerScrollUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "-.LQBannerScrollUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = LQBannerScroll;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A42EBFE81FB0579B00B254BF /* Build configuration list for PBXProject "LQBannerScroll" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A42EC0171FB057A200B254BF /* Debug */,
+				A42EC0181FB057A200B254BF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A42EC0191FB057A200B254BF /* Build configuration list for PBXNativeTarget "LQBannerScroll" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A42EC01A1FB057A200B254BF /* Debug */,
+				A42EC01B1FB057A200B254BF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A42EC01C1FB057A200B254BF /* Build configuration list for PBXNativeTarget "LQBannerScrollTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A42EC01D1FB057A200B254BF /* Debug */,
+				A42EC01E1FB057A200B254BF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A42EC01F1FB057A200B254BF /* Build configuration list for PBXNativeTarget "LQBannerScrollUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A42EC0201FB057A200B254BF /* Debug */,
+				A42EC0211FB057A200B254BF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A42EBFE51FB0579A00B254BF /* Project object */;
+}
