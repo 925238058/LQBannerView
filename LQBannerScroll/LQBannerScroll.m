@@ -105,7 +105,7 @@ static NSString * identifier = @"LQBannerCell";
     [self.timer invalidate];
     self.timer = nil;
 }
-
+//开始滚动
 -(void)starScroll{
     self.currentSize++;
     NSIndexPath *indexPath = [NSIndexPath indexPathForItem:self.currentSize inSection:0];
