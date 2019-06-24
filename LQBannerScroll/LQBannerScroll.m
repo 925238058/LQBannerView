@@ -5,7 +5,7 @@
 //  Created by zhengliqiang on 2017/11/6.
 //  Copyright © 2017年 zhengliqiang. All rights reserved.
 //
-
+//这是一个用Collecionview创建的轮播图
 #import "LQBannerScroll.h"
 #import "LQBannerCell.h"
 
@@ -31,7 +31,7 @@ static NSString * identifier = @"LQBannerCell";
     return self;
 }
 
-
+//创建Colectionview
 -(void)loadCollectionview{
     UICollectionViewFlowLayout * layout = [[UICollectionViewFlowLayout alloc]init];
     layout.minimumLineSpacing = 0;
