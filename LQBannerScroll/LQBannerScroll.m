@@ -100,6 +100,7 @@ static NSString * identifier = @"LQBannerCell";
     [[NSRunLoop currentRunLoop] addTimer:self.timer forMode:(NSRunLoopCommonModes)];
     
 }
+//删除定时器
 -(void)deleteTimer{
     [self.timer invalidate];
     self.timer = nil;
