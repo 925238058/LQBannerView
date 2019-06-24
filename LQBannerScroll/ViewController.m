@@ -19,7 +19,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
 
-    
+//    直接在这里调用就可以了
     LQBannerScroll *a  = [[LQBannerScroll alloc]initWithFrame:CGRectMake(0, 0, self.view.frame.size.width,self.view.frame.size.width*9/16)];
     [self.view addSubview:a];
     
